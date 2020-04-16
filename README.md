@@ -23,6 +23,7 @@ grunt.loadNpmTasks('grunt_ftp');
 In your project's Gruntfile, add a section named `grunt_ftp` to the data object passed into `grunt.initConfig()`.
 
 ```js
+module.exports = function(grunt) {
 grunt.initConfig({
   grunt_ftp: {
     options: {
@@ -34,6 +35,8 @@ grunt.initConfig({
     }
   },
 });
+grunt.loadTasks('grunt-ftp');
+};
 ```
 
 
