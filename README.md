@@ -20,7 +20,7 @@ grunt.loadNpmTasks('grunt_ftp');
 
 ## Installing 
 
-> npm i git+https://github.com/winthers/grunt-ftp --save-dev
+> npm i git+https://github.com/winthers/grunt-ftp.git#1.0.0 --save-dev
 
 It's a good idea to check if the package have actually been installed, sins it seems to be a bit unreliable.
 
