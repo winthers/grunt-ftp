@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+tmp
+file-cache.json
+test/fixtures/settings.json
+.ftp-upload-file-cache
