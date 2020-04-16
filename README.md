@@ -114,4 +114,8 @@ The internal file cashed can be purged by calling the task with the purge argume
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+
+
+| version | date | changes |
+| :-------|:-----|:------- |
+| 1.0.0   | 2020/04/16 | Initial release |
