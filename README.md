@@ -17,6 +17,15 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt_ftp');
 ```
 
+
+## Installing 
+
+> npm i git+https://github.com/winthers/grunt-ftp --save-dev
+
+It's a good idea to check if the package have actually been installed, sins it seems to be a bit unreliable.
+
+
+
 ## The "grunt_ftp" task
 
 ### Overview
@@ -24,18 +33,18 @@ In your project's Gruntfile, add a section named `grunt_ftp` to the data object 
 
 ```js
 module.exports = function(grunt) {
-grunt.initConfig({
-  grunt_ftp: {
-    options: {
-      "host": "ftp.hostname",
-      "port": 21,
-      "src": "localRoot",
-      "dest": "remoteRoot",
-      "credentials": "ftp-credentials.json"
-    }
-  },
-});
-grunt.loadTasks('grunt-ftp');
+  grunt.initConfig({
+    grunt_ftp: {
+      options: {
+        "host": "ftp.hostname",
+        "port": 21,
+        "src": "localRoot",
+        "dest": "remoteRoot",
+        "credentials": "ftp-credentials.json"
+      }
+    },
+  });
+  grunt.loadNpmTasks('grunt-ftp');
 };
 ```
 
